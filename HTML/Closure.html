@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>Closure</h1>
+    <button id="orange">orange</button>
+    <button id="green">Green</button>
+    <script>
+    /*document.getElementById('orange').onclick=function(){
+        document.body.style.backgroundColor='orange';
+    }
+    document.getElementById('green').onclick=function(){
+        document.body.style.backgroundColor='green';
+    }*/ //without closure function if we have mutiple buttons then need to create closure function
+
+
+    function clickHandler(color){
+        return function(){
+            document.body.style.backgroundColor=`${color}` // for interpolation use backtics
+        }
+
+    }
+    document.getElementById('green').onclick = clickHandler('green');
+    document.getElementById('orange').onclick = clickHandler('orange');
+    
+
+
+    </script>
+</body>
+</html>

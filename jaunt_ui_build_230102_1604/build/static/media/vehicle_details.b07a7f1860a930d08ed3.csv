@@ -1,0 +1,13 @@
+vehicle_reg_no,vehicle_type,vehicle_make,vehicle_model,year_mfg,engine_type,capacity,price,current_market_value,gear_type,vehicle_registered_city,vehicle_registered_county,vehicle_registered_country,vehicle_registered _date
+XU 3421,Motor car,jaguar,XF,2019,petrol,1500,5000,4500,auto,manchester,greater manchester,UK,21/06/2019
+BT 1689,car,land rover,range rover,2020,petrol,1500,6000,5300,auto,liverpool,lanshire,UK,09/07/2020
+MA 4532,car,mercedes,A class,2022,petrol,1000,5000,4500,manual,newcastle,northumberland,UK,10/06/2022
+TA 1234,car,audi,A3,2023,petrol,1200,5200,5200,manual,cambridge,cambridgeshire,UK,12/05/2023
+KA 2341,car,audi,A4,2023,disel,1500,4000,5000,manual,canterbury,kent,UK,16/06/2023
+MN 3423,car,subaru,ascent,2022,petrol,1300,3000,4800,auto,derry,northern ierland,UK,17/08/2023
+KJ 4566,car,toyota,avalon,2021,petrol,1350,5000,4500,auto,gloucester,gloucestershire,UK,11/09/2021
+FD 1234,car,ford,bronco,2022,disel,1400,6000,5000,manual,hereford,herefordshire,UK,16/05/2022
+AC 6432,car,kia,carnival,2022,petrol,1300,5000,3400,manual,newport,wales,UK,11/03/2023
+MN 6744,car,BMW,BMW X1,2021,petrol,1500,4000,4000,auto,norwich,norfolk,UK,12/04/2022
+FG 1234,car,hyundai,hundai tuscon,2022,disel,1200,4000,3000,auto,glasgow,west cental lowlands,UK,13/05/2022
+XC 2345,car,buick,enclave 2021,2021,petrol,1400,4500,4500,manual,lincoln,lancaster,UK,15/06/2021

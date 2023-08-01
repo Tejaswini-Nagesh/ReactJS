@@ -1,0 +1,87 @@
+@import "../../App.scss";
+.policy-ref-box{
+    border: 1px solid $primary;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    h4{
+        color: $primary;
+        font-size: 18px;
+        margin: 0;
+    }
+    p{
+        margin: 0;
+        color: $grey;
+        font-size: 18px;
+    }
+}
+.documents-wrap{
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    h5{
+        font-size: 18px;
+        color: $primary;
+        margin: 0;
+    }
+    p{
+        color: $primary;
+        margin: 0; 
+    }
+}
+.download-button{
+    border: none;
+    height: auto;
+    box-shadow: none !important;
+    p{
+        font-size: 12px;
+        color: $grey;
+    }
+
+}
+.custom-collapse{
+    &.ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header{
+        background: $primary;
+    }
+    .ant-collapse-header-text{
+        color: $white;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .ant-collapse-arrow{
+        background: url(../../assets/images/white-next-arrow.png);
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        svg{
+            opacity: 0;
+        }
+        // {
+        //     background: url(../../assets/images/cross-icon.svg);
+        // }
+    }
+    .ant-collapse-item-active{
+        .ant-collapse-arrow{
+            background: url(../../assets/images/cross-icon.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    &.ant-collapse{
+        border: none;
+        .ant-collapse-item {
+            border: 1px solid $primary;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+    }
+    
+}
+.price-text{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+}

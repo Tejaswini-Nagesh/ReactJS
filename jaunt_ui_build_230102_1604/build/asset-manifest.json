@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.975b9645.css",
+    "main.js": "/static/js/main.9813b82b.js",
+    "static/js/787.155aec58.chunk.js": "/static/js/787.155aec58.chunk.js",
+    "static/media/img-car.png": "/static/media/img-car.4ebeb240f88064d430d2.png",
+    "static/media/icon-2.png": "/static/media/icon-2.ffd0feb9679186c28f41.png",
+    "static/media/tick-button.svg": "/static/media/tick-button.5b185f782e3eeba03767.svg",
+    "static/media/down-arrow-button.svg": "/static/media/down-arrow-button.03f8050d31700be5ddd5.svg",
+    "static/media/Jaunt-logo-primary.svg": "/static/media/Jaunt-logo-primary.1838ea963803c185b41a8be99cef65a0.svg",
+    "static/media/Jaunt-logo.svg": "/static/media/Jaunt-logo.6492b8b4b7c7298bd208a9791b714f2e.svg",
+    "static/media/vehicle_details.csv": "/static/media/vehicle_details.b07a7f1860a930d08ed3.csv",
+    "index.html": "/index.html",
+    "static/media/cross-icon.svg": "/static/media/cross-icon.d66d1ac303e0c30c58c2.svg",
+    "static/media/down-arrow-black.svg": "/static/media/down-arrow-black.7fe1985cdfda7706ab12.svg",
+    "static/media/down-arrow-white.svg": "/static/media/down-arrow-white.49431ab750b86519d9f5.svg",
+    "main.975b9645.css.map": "/static/css/main.975b9645.css.map",
+    "main.9813b82b.js.map": "/static/js/main.9813b82b.js.map",
+    "787.155aec58.chunk.js.map": "/static/js/787.155aec58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.975b9645.css",
+    "static/js/main.9813b82b.js"
+  ]
+}

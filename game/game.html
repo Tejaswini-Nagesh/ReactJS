@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    .playground{
+        position:relative;
+        background-color: green;
+        height: 500px;
+        width: 500px;
+        float:left;
+    }
+    .mosquito{
+        position: relative;
+        height: 50px;
+        width:50px;
+    }
+</style>
+</head>
+
+<body>
+    <div class="playground">
+        <img class="mosquito" id="mosquito" 
+         onclick="hitMosquito()" src="C:\Users\TN64418\Desktop\react\game\mosquito.jpg"/>
+
+    </div>
+    <h2 id="gameStatus"></h2>
+    <div class="controls">
+        <h3>
+            <span>Total</span>
+            <span id="totalHit"></span>
+        </h3>
+        <button onclick="startGame()">start game</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
